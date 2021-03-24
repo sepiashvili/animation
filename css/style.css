@@ -16,11 +16,11 @@
     z-index: 1;
 }
 @keyframes fish1 {
-    0% { top: 500px; left: 1350px;}
+    0% { top: 525px; left: 1350px;}
     25% { top: 450px; left: 900px;}
-    50% { top: 500px; left: 600px;}
+    50% { top: 545px; left: 600px;}
     75% { top: 450px; left: 300px;}
-    100% { top: 500px; left: -150px;}
+    100% { top: 525px; left: -150px;}
 }
 .sun {
     position: absolute;
