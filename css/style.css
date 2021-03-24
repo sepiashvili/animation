@@ -1,6 +1,8 @@
 .backgroung-img {
     background-image: url(../images/sea.jpg);
     position: relative;
+    background-repeat: no-repeat;
+    background-size:100%;
 }
 .fish1 {
     background-image: url(https://www.animatedimages.org/data/media/194/animated-fish-image-0014.gif);
