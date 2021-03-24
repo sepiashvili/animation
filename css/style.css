@@ -77,6 +77,6 @@
     animation: ball .7s infinite alternate;
 }
 @keyframes ball {
-    0%{top:315px; left: 750px;}
-    100%{top: 215px; left: 1293px;}
+    0%{top:355px; left: 685px;}
+    100%{top: 115px; left: 685px;}
 }
