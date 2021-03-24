@@ -1,0 +1,82 @@
+.backgroung-img {
+    background-image: url(../images/sea.jpg);
+    position: relative;
+}
+.fish1 {
+    background-image: url(https://www.animatedimages.org/data/media/194/animated-fish-image-0014.gif);
+    position: absolute;
+    width: 129px;
+    height: 112px;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 1200px;
+    animation: fish1 20s linear infinite;
+    z-index: 1;
+}
+@keyframes fish1 {
+    0% { top: 500px; left: 1350px;}
+    25% { top: 450px; left: 900px;}
+    50% { top: 500px; left: 600px;}
+    75% { top: 450px; left: 300px;}
+    100% { top: 500px; left: -150px;}
+}
+.sun {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color:red;
+    left: 50%;
+    transform: translate(-50%);
+    transition-delay: 2s;
+    transition-duration: 2s;
+}
+.sun:hover {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 300px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.fish2 {
+    background-image: url(https://www.animatedimages.org/data/media/194/animated-fish-image-0345.gif);
+    width: 132px;
+    height: 91px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    animation: fish2 20s linear infinite;
+}
+@keyframes fish2 {
+    0% { top: 20px; left: -150px;}
+    100% {top: 20px; left:1400px;}
+}
+.fish3 {
+    background-image: url(https://www.animatedimages.org/data/media/194/animated-fish-image-0062.gif);
+    width: 150px;
+    height: 224px;
+    position:absolute;
+    left: 625px;
+    top: 400px;
+    animation: fish3 .7s infinite alternate;
+    background-repeat: no-repeat;
+}
+@keyframes fish3 {
+    0% {left: 625px; top: 400px;}
+    100%{left: 625px; top: 330px;}
+}
+.ball {
+    background-image: repeating-radial-gradient(red, blue 20%, green 15%);
+    position:absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: royalblue;
+    left: 750px;
+    top: 315px;
+    animation: ball .7s infinite alternate;
+}
+@keyframes ball {
+    0%{top:315px; left: 750px;}
+    100%{top: 215px; left: 1293px;}
+}
